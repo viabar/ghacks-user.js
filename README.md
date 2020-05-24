@@ -1,27 +1,38 @@
-### ![][b] user.js
-A `user.js` is a configuration file that can control hundreds of Firefox settings. For a more technical breakdown and explanation, you can read more on the [overview](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview) wiki page.
-
-### ![][b] ghacks user.js
-The `ghacks user.js` is a **template** which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage (but it will happen).
-
-Everyone, experts included, should at least read the [implementation](https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.3-Implementation) wiki page, as it contains important information regarding a few `ghacks user.js` settings.
-
-Note that we do *not* recommend connecting over Tor on Firefox. Use the [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) if your [threat model](https://www.torproject.org/about/torusers.html.en) calls for it, or for accessing hidden services. 
-
-Also be aware that this `user.js` is made specifically for desktop Firefox. Using it as-is in other Gecko-based browsers can be counterproductive, especially in the Tor Browser.
-
-Sitemap: [Releases](https://github.com/ghacksuserjs/ghacks-user.js/releases), [changelogs](https://github.com/ghacksuserjs/ghacks-user.js/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Achangelog), [Wiki](https://github.com/ghacksuserjs/ghacks-user.js/wiki), [stickies](https://github.com/ghacksuserjs/ghacks-user.js/issues?q=is%3Aissue+is%3Aopen+label%3A%22sticky+topic%22). [diffs](https://github.com/ghacksuserjs/ghacks-user.js/issues?q=is%3Aissue+label%3Adiffs)
-
-### ![][b] acknowledgments
-Literally thousands of sources, references and suggestions. That said...
-
-* Martin Brinkmann at [ghacks](https://www.ghacks.net/) <sup>1</sup>
-* The ghacks community and commentators
-* [12bytes](https://12bytes.org/articles/tech/firefox/firefoxgecko-configuration-guide-for-privacy-and-performance-buffs)
-   * The 12bytes article now uses this user.js and supplements it with an additional JS hosted at [Codeberg](https://codeberg.org/12bytes.org/Firefox-user.js-supplement)
-
-<sup>1</sup> The ghacks user.js was an independent project by [Thorin-Oakenpants](https://github.com/Thorin-Oakenpants) started in early 2015 and was [first published](https://www.ghacks.net/2015/08/18/a-comprehensive-list-of-firefox-privacy-and-security-settings/) at ghacks in August 2015. With Martin Brinkmann's blessing, it will keep the ghacks name.
-
-### ![][b] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[b]: /wikipiki/bullet01.png
+## Adjusted ghacks user.js
+## Relaxed Profile
+A `user.js` Firefox configuration file adjusted to my personal needs.
+### Changes:
+- 0105d: disabled Activity Stream recent Highlights in the Library
+- 0515: disabled uploading to the Screenshots server
+- 0701: don't disable IPv6
+- 0801: don't disable location bar using search
+- 0805: don't disable coloring of visited links
+- 0871: don't disable Windows taskbar preview
+- 0901: disable saving passwords
+- 1030: don't disable favicons in shortcuts
+- 1201: don't require safe negotiation
+- 1211, 1212: disable OCSP fetching
+- 1401: don't disable websites choosing fonts
+- 1409: use custom fonts whitelist
+- 1603: don't enable referer control
+- 1610: don't use Do Not Track header
+- 1825, 1830: don't disable widevine CDM
+- 2001: don't disable WebRTC
+- 2010: don't disable WebGL
+- 2022: don't disable screensharing
+- 2031: don't disable autoplay of HTML5 media
+- 2404: don't disable clipboard commands
+- 2405: don't disable "Confirm you want to leave" dialog
+- 2420: don't disable asm.js
+- 2422: don't disable WebAssembly
+- 2505: don't disable media device enumeration
+- 2510: don't disable Web Audio API
+- 2607: don't disable developer tools
+- 2651: don't always ask where to download
+- 2803: only clear cache & forms on shutdown by default
+- 2804, 2806: don't reset default items to clear dialog
+- 4001: don't enable First Party Isolation
+- 4501, 4503, 4504, 4510: don't enable privacy.resistFingerprinting
+- 4600: enable RFP alternatives, except 4615
+- 5000: disable welcome, what's new, misc. warnings, open bookmarks in a new tab, pocket, firefox sync
+- 9999: removed legacy/deprecated settings block
