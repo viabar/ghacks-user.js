@@ -18,16 +18,9 @@ A `user.js` Firefox configuration file adjusted to my personal needs.
 - 1603: don't enable referer control
 - 1610: don't use Do Not Track header
 - 1825, 1830: don't disable widevine CDM
-- 2001, 2002: don't disable WebRTC, don't disable ip leak protections
-- 2010, 2012: don't disable WebGL
-- 2022: don't disable screensharing
 - 2031: don't disable autoplay of HTML5 media
 - 2404: don't disable clipboard commands
 - 2405: don't disable "Confirm you want to leave" dialog
-- 2420: don't disable asm.js
-- 2422: don't disable WebAssembly
-- 2505: don't disable media device enumeration
-- 2510: don't disable Web Audio API
 - 2607: don't disable developer tools
 - 2651: don't always ask where to download
 - 2803: only clear cache & forms on shutdown by default
@@ -37,3 +30,11 @@ A `user.js` Firefox configuration file adjusted to my personal needs.
 - 4600: enable RFP alternatives, except 4615
 - 5000: disable welcome, what's new, misc. warnings, open bookmarks in a new tab, pocket, firefox sync
 - 9999: removed legacy/deprecated settings block
+
+### Suggested addons
+- Decentraleyes
+- Google search link fix
+- History AutoDelete
+- HTTPS Everywhere
+- Temporary Containers
+- uBlock Origin
