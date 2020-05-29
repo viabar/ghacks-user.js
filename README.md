@@ -17,8 +17,8 @@ A `user.js` Firefox configuration file adjusted to my personal needs.
 - 1603: don't enable referer control
 - 1610: don't use Do Not Track header
 - 1825, 1830: don't disable widevine CDM
-- 2001: don't disable WebRTC
-- 2010: don't disable WebGL
+- 2001, 2002: don't disable WebRTC, don't disable ip leak protections
+- 2010, 2012: don't disable WebGL
 - 2022: don't disable screensharing
 - 2031: don't disable autoplay of HTML5 media
 - 2404: don't disable clipboard commands

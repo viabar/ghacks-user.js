@@ -910,9 +910,9 @@ user_pref("_user.js.parrot", "2000 syntax error: the parrot's snuffed it!");
  * [1] https://bugzilla.mozilla.org/buglist.cgi?bug_id=1189041,1297416,1452713
  * [2] https://wiki.mozilla.org/Media/WebRTC/Privacy
  * [3] https://tools.ietf.org/html/draft-ietf-rtcweb-ip-handling-12#section-5.2 ***/
-user_pref("media.peerconnection.ice.default_address_only", true);
-user_pref("media.peerconnection.ice.no_host", true); // [FF51+]
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true); // [FF70+]
+  //user_pref("media.peerconnection.ice.default_address_only", true);
+  //user_pref("media.peerconnection.ice.no_host", true); // [FF51+]
+  //user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true); // [FF70+]
 /* 2010: disable WebGL (Web Graphics Library)
  * [SETUP-WEB] When disabled, may break some websites. When enabled, provides high entropy,
  * especially with readPixels(). Some of the other entropy is lessened with RFP (see 4501)
@@ -921,8 +921,8 @@ user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true); // [FF70
   //user_pref("webgl.disabled", true);
   //user_pref("webgl.enable-webgl2", false);
 /* 2012: limit WebGL ***/
-user_pref("webgl.min_capability_mode", true);
-user_pref("webgl.disable-fail-if-major-performance-caveat", true);
+  //user_pref("webgl.min_capability_mode", true);
+  //user_pref("webgl.disable-fail-if-major-performance-caveat", true);
 /* 2022: disable screensharing ***/
   //user_pref("media.getusermedia.screensharing.enabled", false);
   //user_pref("media.getusermedia.browser.enabled", false);
