@@ -7,6 +7,7 @@ A `user.js` Firefox configuration file adjusted to my personal needs.
 - 0701: don't disable IPv6
 - 0801: don't disable location bar using search
 - 0805: don't disable coloring of visited links
+- 0850e: disable location bar one-off searches
 - 0871: don't disable Windows taskbar preview
 - 0901: disable saving passwords
 - 1030: don't disable favicons in shortcuts
